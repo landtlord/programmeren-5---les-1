@@ -6,18 +6,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PersonRepo {
-    private List<PersonEntity> personList;
+    private List<PersonEntity> personEntityList;
 
     public PersonRepo(){
-        personList = new ArrayList<PersonEntity>();
+        personEntityList = new ArrayList<PersonEntity>();
     }
 
     public List<PersonEntity> getAll(){
-        return personList;
+        return personEntityList;
     }
 
     public void save(PersonEntity personEntity){
-        personList.add(personEntity);
+        personEntityList.add(personEntity);
         System.out.println(personEntity);
     }
 }
