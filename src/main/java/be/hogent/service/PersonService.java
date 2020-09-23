@@ -1,12 +1,11 @@
 package be.hogent.service;
 
 import be.hogent.buseniss.PersonEntity;
-import be.hogent.buseniss.PersonRepo;
+import be.hogent.buseniss.repositories.PersonRepo;
 import be.hogent.service.DTO.Person;
 import be.hogent.service.mappers.PersonMapper;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class PersonService {
     private PersonMapper mapper;

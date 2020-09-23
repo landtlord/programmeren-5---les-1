@@ -1,4 +1,6 @@
-package be.hogent.buseniss;
+package be.hogent.buseniss.repositories;
+
+import be.hogent.buseniss.PersonEntity;
 
 import java.util.ArrayList;
 import java.util.List;

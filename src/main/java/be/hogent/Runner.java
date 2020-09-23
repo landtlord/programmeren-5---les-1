@@ -1,6 +1,6 @@
 package be.hogent;
 
-import be.hogent.buseniss.PersonRepo;
+import be.hogent.buseniss.repositories.PersonRepo;
 import be.hogent.service.DTO.Person;
 import be.hogent.service.PersonService;
 import be.hogent.service.mappers.PersonMapper;
