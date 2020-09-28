@@ -8,7 +8,7 @@ import be.hogent.service.mappers.PersonMapper;
 import java.util.List;
 
 public class PersonService {
-    private final PersonMapper mapper;
+    private final PersonMapper mapper ;
 
     private final PersonRepo repo;
 
